@@ -4,10 +4,20 @@
   "version": "0.1",
 
   "description": "Flips all text on websites. Yes, that'S it.",
+  "homepage_url": "https://github.com/DF3LX/text_flip",
+
+  "permissions": ["activeTab"],
 
   "icons": {
     "48": "icons/border-48.png"
   },
+
+  "browser_action": {
+    "default_icon": "icons/border-48.png",
+    "default_title": "text_flip",
+    "default_popup": "popup/flip.html"
+  },
+
 
   "content_scripts": [
     {
